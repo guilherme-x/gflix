@@ -1,3 +1,4 @@
+import Logo from 'assets/logo.png'
 const NavBar = () => {
     return (
         <div style={{
@@ -18,6 +19,7 @@ const NavBar = () => {
                 paddingInline: '20%',
                 height: 50,
             }}>
+                <img className='logo' alt='logo' src={Logo} />
                 <a href="/" style={{ color: 'white', textDecoration: 'none' }}>Home</a>
                 <a href="/movies" style={{ color: 'white', textDecoration: 'none' }}>Filmes</a>
                 <a href="/" style={{ color: 'white', textDecoration: 'none' }}>Séries</a>
