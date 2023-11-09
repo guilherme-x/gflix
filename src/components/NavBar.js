@@ -7,7 +7,7 @@ const NavBar = () => {
             left: 0,
             width: '100%',
             height: 50,
-            backgroundColor: 'rgba(0,0,0,0.7)',
+            backgroundColor: 'rgba(0,0,0,0.9)',
             boxShadow: '0 0 10px rgba(0,0,0,0.5)',
             zIndex: 2,
         }} className="navBar">

@@ -11,7 +11,7 @@ tmdbApi.interceptors.request.use((config) => {
         Authorization: `Bearer ${accessToken}`,
         'Content-Type': 'application/json',
     }
-    config.url = `${config.url}?language=pt-BR`
+    config.url = `${config.url}${config.url.includes("?") ? "&" : "?"}language=pt-BR`
     return config
 })
 
